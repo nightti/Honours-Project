@@ -1,0 +1,40 @@
+###################################################################################################
+# Config file for OptAinet                                                                        #
+# ------------------------                                                                        #
+#                                                                                                 #
+# Please keep the parameters in the order shown to enable correct reading of the config file      #
+#                                                                                                 #
+# For more information on how these parameters affect the performance of the opt-aiNet algorithm, #
+# please refer to the following publication:                                                      #
+# 	de Castro, Leandro N., and Timmis, Jon, "An Artificial Immune Network for Multimodal Function #
+#		Optimisation", Proceedings of the IEEE Congress on Evolutionary Computation, 2002         #
+#                                                                                                 #
+###################################################################################################
+
+# Number of initial cells in the network: <integer>
+20
+
+# Number of clones generated for each network cell during clonal selection: <integer>
+10
+
+# Maximum number of algorithm iterations: <integer>
+500
+
+# Suppression threshold for network cell affinities: <double>
+0.2
+
+# Clonal selection average error threshold: <double>
+0.001
+
+# Proportion of current population size to be added for diversity at each iteration: <double> [0.0,1.0]
+0.4
+
+# Affinity proportionate mutation parameter: <double> 
+100.0
+
+# Number of dimensions for optimisation problem: <integer>
+2
+
+# Lower and upper bounds on each dimension of the optimisation problem: <double>,<double>
+-10.0,10.0
+-10.0,10.0
